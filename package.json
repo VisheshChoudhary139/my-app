@@ -5,8 +5,8 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",  
+    "react-dom": "^18.2.0",  
     "react-router-dom": "^7.1.3",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b main",  // Deploy to 'main' branch instead of 'gh-pages'
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
